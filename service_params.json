@@ -1,0 +1,63 @@
+{
+    "TOKEN_CONNECTED": "",
+    "TOKEN_EXTENDED": "",
+    "VCC_KEY_PRINARY": "",
+    "VCC_KEY_SECONDARY": "",
+    "URI": "https://api.volvocars.com/connected-vehicle/v1/vehicles",
+    "SERVICES": {
+        "application/vnd.volvocars.api.connected-vehicle.vehicle.v1+json": [
+            "details"
+        ],
+        "application/vnd.volvocars.api.connected-vehicle.vehicledata.v1+json": [
+            "environment",
+            "brakes",
+            "diagnostics",
+            "doors",
+            "engine",
+            "engine-status",
+            "fuel",
+            "odometer",
+            "statistics",
+            "tyres", 
+            "warnings",
+            "windows"
+        ],
+        "application/vnd.volvocars.api.connected-vehicle.vehiclelist.v1+json": [
+           ""
+        ],
+        "application/vnd.volvocars.api.connected-vehicle.navipointofinterest.v1+json": [
+            "commands/navi-point-of-interest"
+        ],
+        "application/vnd.volvocars.api.connected-vehicle.requestdetailresponse.v1+json": [
+            "requests"
+        ],
+        "application/vnd.volvocars.api.connected-vehicle.commandinvokeresponse.v1+json": [
+            "commands/climatization-start",
+            "commands/climatization-stop",
+            "commands/engine-start", 
+            "commands/engine-stop",
+            "commands/flash",
+            "commands/honk",
+            "commands/honk-flash", 
+            "commands/lock",
+            "commands/unlock",
+            "commands/navi-point-of-interest"
+        ],
+        "application/vnd.volvocars.api.connected-vehicle.unlock.v1+json": [
+            "unlock"
+        ],
+        "application/vnd.volvocars.api.connected-vehicle.lock.v1+json": [
+            "lock"
+        ],
+        "application/vnd.volvocars.api.connected-vehicle.commands.accessibility.v1+json": [
+            "command-accessibility"
+        ],
+        "application/vnd.volvocars.api.connected-vehicle.requestlist.v1+json": [
+            "requests", 
+            "requests/search"
+        ],
+        "application/vnd.volvocars.api.connected-vehicle.commandlist.v1+json": [
+            "commands"
+        ]
+    }
+}
